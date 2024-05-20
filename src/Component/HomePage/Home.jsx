@@ -1,9 +1,16 @@
 
 
+import Banner from "./Banner/Banner";
+import Menu from "./Banner/Menu";
+import Navbar from "./Navabar/Navbar";
+
+
 const Home = () => {
     return (
         <div>
-            <h1 className="bg-red-400 text-4xl">helllow world</h1>
+           <Navbar/>
+            <Banner/>
+            <Menu/>
         </div>
     );
 };
