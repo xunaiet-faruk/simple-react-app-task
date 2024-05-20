@@ -5,8 +5,8 @@ import { FaSearch } from "react-icons/fa";
 
 const Menu = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen">
-            <div className="absolute lg:-bottom-[220px] md:-bottom-[850px] max-w-screen-xl mx-auto mb-32">
+        <div className="flex items-center justify-center min-h-screen ">
+            <div className="absolute lg:-bottom-[100px] md:-bottom-[850px] max-w-screen-xl mx-auto">
                 <div className="flex sm:flex-row lg:flex-row md:flex-row justify-between items-center md:gap-12 lg:gap-28">
                     <div className="flex flex-col items-center gap-4">
                         <div className='bg-[#FED29C] w-20 h-20 rounded-full flex justify-center items-center'>
