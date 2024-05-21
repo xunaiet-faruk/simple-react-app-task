@@ -19,9 +19,9 @@ const Banner = () => {
                             Personalized Eyeglass<br />
                             Shopping
                         </h1>
-                        <div className='flex md:ml-48 lg:ml-0 ml-32  gap-2 text-center items-center bg-[#383838] w-[90px] lg:w-[130px] justify-center py-2 rounded-sm'>
+                        <div className='flex md:ml-48 lg:ml-0 ml-32  gap-2 text-center items-center bg-[#383838] w-[90px] lg:w-[150px] justify-center py-2 rounded-sm'>
                             <FaCartShopping className='lg:text-[14px] text-[12px] text-white' />
-                            <button className='text-white lg:text-[14px]  text-[9px] font-bold'>Buy Now</button>
+                            <button className='text-white lg:text-[14px]  text-[9px] font-semibold'>Buy Now</button>
                         </div>
                     </div>
                     <div className='bg-[#FED29C]  lg:ml-[400px] rounded-full w-[350px] md:w-[490px] md:h-[490px] h-[350px] lg:w-[490px] lg:h-[490px]'>

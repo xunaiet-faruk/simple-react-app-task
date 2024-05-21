@@ -3,10 +3,10 @@ import image1 from '../../../../public/Image-2.png'
 import image2 from '../../../../public/Image-3.png'
 import image3 from '../../../../public/Image-4.png'
 import image4 from '../../../../public/Image-5.png'
-const Products = () => {
+const Features = () => {
     return (
        <div className="max-w-screen-xl mx-auto">
-            <div className="-mt-[450px]  gap-6 mb-6 flex items-center justify-center">
+            <div className="-mt-[420px]  gap-6 mb-6 flex items-center justify-center">
 
 
                 {/* ````````````    first card info ```````````` */}
@@ -59,4 +59,4 @@ const Products = () => {
     );
 };
 
-export default Products;
+export default Features;
