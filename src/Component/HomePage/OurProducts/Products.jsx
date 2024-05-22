@@ -13,7 +13,7 @@ const Products = () => {
     };
 
     return (
-        <div className=" mt-28 max-w-screen-xl mx-auto">
+        <div className=" mt-16 max-w-screen-xl mx-auto">
             <div className="flex flex-col lg:flex-col md:flex-row justify-between  lg:px-12 ">
                 <div className="space-y-3 lg:ml-10 md:text-start text-center">
                     <h1 className="text-[38px] text-[#383838] font-bold">Our Products</h1>

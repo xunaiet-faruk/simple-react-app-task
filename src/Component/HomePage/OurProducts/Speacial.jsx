@@ -15,11 +15,11 @@ const Speacial = () => {
    
 
     return (
-        <div className="grid lg:grid-cols-3 md: grid-cols-2 grid-col-1 gap-12">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-12">
             {speacial?.map((item, index) => (
                  <div
                     key={index}
-                    className={`mx-auto max-w-[350px] space-y-6 font-sans ${index === 0 ? '-mt-7' : ''}`}  // Adjust the value as needed
+                    className={`mx-auto max-w-[350px] space-y-6 font-sans ${index === 0 ? '-mt-7' : ''}`}  
                 >
                     <div className={`relative bg-[#F7F7F7] flex flex-col h-[450px] w-[370px] justify-between lg:h-[430px] px-12 ${index === 0 ? 'pt-4' : ''}`}>
                         <div className="flex items-center justify-between">
