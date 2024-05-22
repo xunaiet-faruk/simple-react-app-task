@@ -2,7 +2,7 @@ import { MdShoppingCart } from "react-icons/md";
 import { FaUser } from "react-icons/fa6";
 import { useEffect, useRef, useState } from "react";
 
-const Navbar = () => {
+const Navbar = ({ cartItems }) => {
     const [dropDownState, setDropDownState] = useState(false);
     const dropDownMenuRef = useRef();
 
@@ -57,9 +57,10 @@ const Navbar = () => {
                             <FaUser />
                         </div>
                         <ul className="hidden lg:flex gap-4 list-none rounded-full px-6 py-2">
-                            <li className="cursor-pointer">
-                                <MdShoppingCart className="text-xl" />
-                            </li>
+                            <div>
+                                <MdShoppingCart />
+                                <span className="text-xl text-red-500">{cartItems?.reduce((acc, curr) => acc + curr, 0)}</span>
+                            </div>
                             <li className="cursor-pointer">
                                 <FaUser />
                             </li>

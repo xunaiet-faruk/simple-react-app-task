@@ -1,5 +1,4 @@
 
-
 import Home from './Component/HomePage/Home'
 
 function App() {
@@ -8,6 +7,7 @@ function App() {
   return (
     <>
     <Home/>
+   
     </>
   )
 }

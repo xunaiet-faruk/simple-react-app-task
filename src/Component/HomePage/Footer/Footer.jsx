@@ -6,7 +6,7 @@ import { IoLogoTwitter } from "react-icons/io";
 const Footer = () => {
     return (
         <div>
-            <div className="mt-32 max-w-screen-xl mx-auto ">
+            <div className="mt-16 max-w-screen-xl mx-auto ">
 
                 <footer className="flex flex-col text-black">
                     <div className="flex flex-col lg:items-start items-center justify-around gap-5 py-10 md:flex-row md:gap-0 md:items-center">
