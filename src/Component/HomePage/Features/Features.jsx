@@ -6,7 +6,7 @@ import image4 from '../../../../public/Image-5.png'
 const Features = () => {
     return (
        <div className="max-w-screen-xl mx-auto">
-            <div className="-mt-[420px]  gap-6 mb-6 flex items-center justify-center">
+            <div className="lg:-mt-[420px] md:-mt-[200px] -mt-[270px] lg:gap-5 md:gap-28 gap-28 lg:mb-[440px] md:mb-[215px] mb-4 px-5 flex flex-col lg:flex-row md:flex-col items-center justify-center">
 
 
                 {/* ````````````    first card info ```````````` */}
@@ -32,7 +32,7 @@ const Features = () => {
 
 
 
-            <div className="  gap-6 mb-12 flex items-center justify-center">
+            <div className="lg:-mt-[420px] md:-mt-[200px] lg:gap-6 md:gap-28 gap-28 lg:mb-6 md:mb-4 px-5 flex flex-col lg:flex-row md:flex-col items-center justify-center">
 
 
                 {/* ````````````    3rd card info ```````````` */}

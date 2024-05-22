@@ -1,17 +1,16 @@
 import React, { useState } from 'react';
-import { MdOutlineAddShoppingCart } from 'react-icons/md';
 import bannerimage from '../../../../public/Image-6.png';
 import { FaCartShopping } from 'react-icons/fa6';
 
 const Banner = () => {
-    const [buttonColors, setButtonColors] = useState([false, false, false]);
+    const [buttonColors, setButtonColors] = useState([false, true, false]);
 
     const toggleColor = (index) => {
         setButtonColors(buttonColors.map((color, i) => (i === index ? !color : false)));
     };
 
     return (
-        <div className='bg-[#EAEAEA] lg:h-[87vh] md:h-[250vh] h-[170vh]  w-full max-w-screen-2xl mx-auto'>
+        <div className='bg-[#EAEAEA] lg:h-[87vh] md:h-[200vh] h-[160vh]  w-full max-w-screen-2xl mx-auto'>
             <div className='flex flex-col lg:flex-row md:flex-col items-center justify-around gap-12 h-full '>
                 <div className='flex justify-between lg:flex-row md:flex-col flex-col'>
                     <div className='md:mb-12 mb-12 lg:absolute lg:pt-[170px] lg:ml-[180px] lg:space-y-8 space-y-5 md:text-center text-center lg:text-start'>
@@ -24,8 +23,9 @@ const Banner = () => {
                             <button className='text-white lg:text-[14px]  text-[9px] font-semibold'>Buy Now</button>
                         </div>
                     </div>
-                    <div className='bg-[#FED29C]  lg:ml-[400px] rounded-full w-[350px] md:w-[490px] md:h-[490px] h-[350px] lg:w-[490px] lg:h-[490px]'>
-                        <img className=' lg:w-[450px] w-[250px]  md:w-[410px] ml-20 lg:mt-[65px] mt:[60px] mt-[130px]' src={bannerimage} alt="Banner" />
+                    <div className='bg-[#FED29C]  lg:ml-[400px]  rounded-full w-[390px] md:w-[490px] md:h-[490px] h-[390px] lg:w-[490px] lg:h-[490px]'>
+                        <img className=' lg:w-[450px] w-[285px]  md:w-[390px] ml-20 lg:mt-[65px] mt:[60px] mt-[130px]' src={bannerimage} alt="Banner" />
+                        <img className='lg:bottom-[200px] absolute md:left-[280px] md:-bottom-[310px] lg:left-[650px] w-6 left-[150px] -bottom-[200px]' src="https://i.ibb.co/yp3qVSw/Icon-2.png" alt="" />
                     </div>
                 </div>
 

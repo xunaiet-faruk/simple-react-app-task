@@ -1,42 +1,42 @@
 [
     {
         "image": "https://i.ibb.co/9NND1PQ/Image-7.png",
-        "discountPercentage": "20%",
-        "title": "Classic Aviator Sunglasses",
-        "currentPrice": 80,
-        "previousPrice": 100
+        "discountPercentage": "10%",
+        "title": "Bravo Sunglasses",
+        "currentPrice": 100,
+        "previousPrice": 150
     },
     {
         "image": "https://i.ibb.co/VwwvS78/Image-12.png",
-        "discountPercentage": "15%",
-        "title": "Round Frame Glasses",
-        "currentPrice": 42.5,
-        "previousPrice": 50
+        "discountPercentage": "10%",
+        "title": "Vincent Chase",
+        "currentPrice": 120,
+        "previousPrice": 150
     },
     {
         "image": "https://i.ibb.co/VwwvS78/Image-12.png",
-        "title": "Square Oversized Glasses",
-        "currentPrice": 75,
-        "previousPrice": 100
+        "title": "John Jacobs",
+        "currentPrice": 100
+       
     },
     {
         "image": "https://i.ibb.co/y02nXmn/Image-9.png",
-        "discountPercentage":" 30%",
-        "title": "Cat Eye Sunglasses",
-        "currentPrice": 70,
-        "previousPrice": 100
+        "discountPercentage":" 10%",
+        "title": "Tommy Hilfiger",
+        "currentPrice": 130,
+         "previousPrice": 150
     },
     {
         "image": "https://i.ibb.co/QNnVtmG/Image-8.png",
-        "title": "Wayfarer Glasses",
-        "currentPrice": 90,
+        "title": "Tommy Hilfiger",
+        "currentPrice": 100,
         "previousPrice": 100
     },
     {
         "image": "https://i.ibb.co/9NND1PQ/Image-7.png",
-        "discountPercentage": "5%",
-        "title": "Retro Round Sunglasses",
-        "currentPrice": 47.5,
-        "previousPrice": 50
+        "discountPercentage": "10%",
+        "title": "Occhiali",
+        "currentPrice": 100,
+        "previousPrice": 150
     }
 ]
