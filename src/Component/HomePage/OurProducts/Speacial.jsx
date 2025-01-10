@@ -17,8 +17,8 @@ const Speacial = () => {
     }, []);
 
 
-    const images = [bannerImage1, bannerImage2, bannerImage3, bannerImage4, bannerImage5, bannerImage6]; // Ensure there are exactly 3 images
-    const defaultImageIndexes = [0, 1, 2, 4, 5, 0]; // Default image index for each card, assume there are exactly 3 cards
+    const images = [bannerImage1, bannerImage2, bannerImage3, bannerImage4, bannerImage5, bannerImage6];
+    const defaultImageIndexes = [0, 1, 2, 4, 5, 0]; 
     const [currentImageIndexes, setCurrentImageIndexes] = useState(defaultImageIndexes);
 
 

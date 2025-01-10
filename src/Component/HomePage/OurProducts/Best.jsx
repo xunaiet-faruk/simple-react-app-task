@@ -6,8 +6,8 @@ import bannerImage4 from '../../../../public/Image-3.png';
 import bannerImage5 from '../../../../public/Image-9.png';
 import bannerImage6 from '../../../../public/Image-8.png';
 const Best = () => {
-    const images = [bannerImage1, bannerImage2, bannerImage3, bannerImage4, bannerImage5, bannerImage6]; // Ensure there are exactly 3 images
-    const defaultImageIndexes = [0, 1, 2, 4, 5, 0]; // Default image index for each card, assume there are exactly 3 cards
+    const images = [bannerImage1, bannerImage2, bannerImage3, bannerImage4, bannerImage5, bannerImage6]; 
+    const defaultImageIndexes = [0, 1, 2, 4, 5, 0]; 
     const [currentImageIndexes, setCurrentImageIndexes] = useState(defaultImageIndexes);
 
 
